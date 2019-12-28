@@ -28,14 +28,18 @@
     margin-left: 250px;
 }
 
-#text{
+.text{
     font-family: 'Quicksand', sans-serif;
     color:#21618c;
 }
-/* .title{
-    font-family: 'Anton', sans-serif;
-    color:#C70039;
-} */
+#name{
+    margin-top: 100px;
+}
+.title{
+    /* font-family: 'Anton', sans-serif;
+    color:#C70039; */
+    margin-bottom: 0px;
+}
 .heading{
     font-family: 'Anton', sans-serif;
     font-family: 'Lobster', cursive;
@@ -45,7 +49,31 @@
     font-family: 'Anton', sans-serif;
     font-family: 'Lobster', cursive;
     font-family: 'Shadows Into Light', cursive;
+    margin-bottom: 100px;
 }
 .icon{
     color:#21618c;
+}
+#card-profile{
+    border-radius: 50%;
+    float: center;
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px 5px grey;
+  }
+  #bg{
+    position: relative;
+    height: 150px;
+    box-shadow: 10px 10px 5px grey;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
 }

@@ -10,15 +10,17 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-      <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
-  integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet"> 
-  <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet"> 
-  <link href="https://fonts.googleapis.com/css?family=Anton|Lobster&display=swap" rel="stylesheet"> 
-  <link href="https://fonts.googleapis.com/css?family=Anton|Lobster|Shadows+Into+Light&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Lobster|Shadows+Into+Light&display=swap" rel="stylesheet">
     <!-- Compiled and minified CSS -->
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
@@ -53,33 +55,33 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active shadow-lg p-3 mb-5 bg-white rounded">
-                <img src="assets/images/CrystalCollector.gif" class="d-block w-100" alt="Crystal">
+                <img src="assets/images/crystal.jpg" class="d-block w-100" alt="Crystal">
                 <div class="carousel-caption d-none d-md-block">
-                    <button type="button" class="btn btn-dark btnTxt shadow-lg p-3 mb-5 bg-dark rounded">
+                    <button type="button" class="btn btn-info btnTxt shadow-lg p-3 mb-5 rounded" data-toggle="modal" data-target="#crystalModal">
                         <h5 class="title">CRYSTAL COLLECTOR</h5>
                     </button>
                 </div>
             </div>
             <div class="carousel-item shadow-lg p-3 mb-5 bg-white rounded">
-                <img src="assets/images/DictionaryScrapper.gif" class="d-block w-100" alt="Dictionary">
+                <img src="assets/images/dictionary.jpg" class="d-block w-100" alt="Dictionary">
                 <div class="carousel-caption d-none d-md-block">
-                    <button type="button" class="btn btn-dark btnTxt shadow-lg p-3 mb-5 bg-dark rounded">
+                    <button type="button" class="btn btn-info btnTxt shadow-lg p-3 mb-5 rounded"data-toggle="modal" data-target="#dictionary">
                         <h5 class="title">DICTIONARY SCRAPPER</h5>
                     </button>
                 </div>
             </div>
             <div class="carousel-item shadow-lg p-3 mb-5 bg-white rounded">
-                <img src="assets/images/FriendFinder.gif" class="d-block w-100" alt="FriendFinder">
+                <img src="assets/images/friend.jpg" class="d-block w-100" alt="FriendFinder">
                 <div class="carousel-caption d-none d-md-block">
-                    <button type="button" class="btn btn-dark btnTxt shadow-lg p-3 mb-5 bg-dark rounded">
+                    <button type="button" class="btn btn-info btnTxt shadow-lg p-3 mb-5 rounded">
                         <h5 class="title">FRIEND FINDER</h5>
                     </button>
                 </div>
             </div>
             <div class="carousel-item shadow-lg p-3 mb-5 bg-white rounded">
-                <img src="assets/images/GoogleBookSearch.gif" class="d-block w-100" alt="GoogleBookSearch">
+                <img src="assets/images/google.jpg" class="d-block w-100" alt="GoogleBookSearch">
                 <div class="carousel-caption d-none d-md-block">
-                    <button type="button" class="btn btn-dark btnTxt shadow-lg p-3 mb-5 bg-dark rounded">
+                    <button type="button" class="btn btn-info btnTxt shadow-lg p-3 mb-5 rounded">
                         <h5 class="title">GOOGLE BOOK SEARCH</h5>
                     </button>
                 </div>
@@ -100,7 +102,7 @@
     <div class="row">
         <div class="col-md-2"></div>
         <div class="col-md-8">
-            <div id="text">
+            <div class="text">
                 <h4>Full Stack Web Developer looking forward for new opportunities with 2+ years of experience in
                     information
                     technology and customer services industry. Passionate about developing responsive web applications
@@ -118,20 +120,154 @@
         <div class="col-md-2"></div>
         <div class="col-md-4 text-center">
             <!-- About me -->
-            <i class="fas fa-user-circle icon" style="text-shadow: 2px 2px 5px #000;"></i>
+            <i class="fas fa-user-circle icon" style="text-shadow: 2px 2px 5px #21618c;"></i>
             <h5 class="heading">About Me</h5>
-            <button type="button" class="btn btn-info btnTxt shadow-lg p-3 mb-5 rounded">Learn More</button>
+            <!-- <button type="button" class="btn btn-info btnTxt shadow-lg p-3 mb-5 rounded">Learn More</button> -->
+            <button class="btn btn-info btnTxt shadow-lg p-3 mb-5 rounded" type="button" data-toggle="collapse"
+                data-target="#skillset" aria-expanded="false" aria-controls="multiCollapseExample2">Learn More</button>
         </div>
         <!-- Vertical Line -->
         <div class="vl"></div>
         <!-- Contact Me -->
         <div class="col-md-4 text-center">
-            <i class="fas fa-address-card icon" style="text-shadow: 2px 2px 5px #000;"></i>
+            <i class="fas fa-address-card icon" style="text-shadow: 2px 2px 5px #21618c;"></i>
             <h5 class="heading">Contact Me</h5>
-            <button type="button" class="btn btn-info btnTxt shadow-lg p-3 mb-5 rounded">Learn More</button>
+            <!-- <button type="button" class="btn btn-info btnTxt shadow-lg p-3 mb-5 rounded">Learn More</button> -->
+            <button class="btn btn-info btnTxt shadow-lg p-3 mb-5 rounded" type="button" data-toggle="collapse"
+                data-target="#contact" aria-expanded="false" aria-controls="multiCollapseExample2">Learn More</button>
         </div>
         <div class="col-md-2"></div>
     </div>
+    <div class="row">
+        <!-- Skillset -->
+        <div class="col">
+            <div class="collapse" id="skillset">
+                <div class="row">
+                    <!-- 1 -->
+                    <div class="col-sm-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title text">Programming Language</h5>
+                                <p class="card-text">
+                                    <i class="fas fa-check-circle icon" style="text-shadow: 2px 2px 5px #21618c;"></i>
+                                    JavaScript, ES6+ <br>
+                                    <i class="fas fa-check-circle icon" style="text-shadow: 2px 2px 5px #21618c;"></i> C
+                                    Programming <br>
+                                    <i class="fas fa-check-circle icon" style="text-shadow: 2px 2px 5px #21618c;"></i>
+                                    Java <br>
+                                    <i class="fas fa-check-circle icon" style="text-shadow: 2px 2px 5px #21618c;"></i>
+                                    Python <br>
+                                    <i class="fas fa-check-circle icon" style="text-shadow: 2px 2px 5px #21618c;"></i>
+                                    HTML5(Web MarkUp Language) <br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 2 -->
+                    <div class="col-sm-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title text">Database & Version Control System</h5>
+                                <p class="card-text">
+                                    <i class="fas fa-check-circle icon" style="text-shadow: 2px 2px 5px #21618c;"></i>
+                                    MySQL<br>
+                                    <i class="fas fa-check-circle icon" style="text-shadow: 2px 2px 5px #21618c;"></i>
+                                    NoSQL <br>
+                                    <i class="fas fa-check-circle icon" style="text-shadow: 2px 2px 5px #21618c;"></i>
+                                    MongoDB <br>
+                                    <i class="fas fa-check-circle icon" style="text-shadow: 2px 2px 5px #21618c;"></i>
+                                    Git, GitHub <br>
+                                    <i class="fas fa-check-circle icon" style="text-shadow: 2px 2px 5px #21618c;"></i>
+                                    Heroku(Cloud Platform) <br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 3 -->
+                    <div class="col-sm-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title text">Library & Frameworks</h5>
+                                <p class="card-text">
+                                    <i class="fas fa-check-circle icon" style="text-shadow: 2px 2px 5px #21618c;"></i>
+                                    React <br>
+                                    <i class="fas fa-check-circle icon" style="text-shadow: 2px 2px 5px #21618c;"></i>
+                                    jQuery <br>
+                                    <i class="fas fa-check-circle icon" style="text-shadow: 2px 2px 5px #21618c;"></i>
+                                    Bootstrap <br>
+                                    <i class="fas fa-check-circle icon" style="text-shadow: 2px 2px 5px #21618c;"></i>
+                                    Handlebars <br>
+                                    <i class="fas fa-check-circle icon" style="text-shadow: 2px 2px 5px #21618c;"></i>
+                                    Node.js <br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 4 -->
+                    <div class="col-sm-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title text">Others</h5>
+                                <p class="card-text">
+                                    <i class="fas fa-check-circle icon" style="text-shadow: 2px 2px 5px #21618c;"></i>
+                                    CSS3 <br>
+                                    <i class="fas fa-check-circle icon" style="text-shadow: 2px 2px 5px #21618c;"></i>
+                                    AJAX <br>
+                                    <i class="fas fa-check-circle icon" style="text-shadow: 2px 2px 5px #21618c;"></i>
+                                    Linux/Unix commands <br>
+                                    <i class="fas fa-check-circle icon" style="text-shadow: 2px 2px 5px #21618c;"></i>
+                                    RESTful API <br>
+                                    <i class="fas fa-check-circle icon" style="text-shadow: 2px 2px 5px #21618c;"></i>
+                                    Chrome Dev Tools <br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact Card -->
+        <div class="col">
+            <div class="flip-card collapse" id="contact">
+                <div class="card text-center" style="width: 300px;">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div id="bg" class="py-3 text-center"
+                                style="background-image: url(assets/images/bg1.jpg); border: 1px solid black;">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <img src="assets/images/0.jpg" alt="mahi" id="card-profile">
+                                    </div>
+                                </div>
+                                <br>
+                            </div>
+                            <div class="card-body">
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="card-body">
+                                    <h1 class="text" id="name">Mahisha Gunasekaran</h1>
+                                    <h5 class="text">Teaching Assistant at UC Berkeley Extension</h5>
+                                    <small class="text">Click on links below to contact</small>
+                                </div>
+
+                                <div class="card-footer">
+                                    <div class="social-links text-center">
+                                        <a href="https://github.com/Mahi-Mani" class="github"><i
+                                                class="fa fa-github fa-fw"></i></a>
+                                        <a class="mailto" href="mailto:m.mahishamani@gmail.com" class="gmail"><i
+                                                class="fa fa-address-card fa-fw"></i></a>
+                                        <a href="https://www.linkedin.com/in/mahisha-gunasekaran-0a780a88"
+                                            class="linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
 
 </html>
