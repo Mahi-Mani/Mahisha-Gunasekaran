@@ -1,0 +1,51 @@
+.carousel-item{
+    height: 300px;
+} 
+.carousel-item img{
+    height: 300px;
+}
+#profile{
+    border-radius: 50%;
+    float: center;
+    display: block;
+    margin-top: 0px;
+    margin-bottom:15px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px 5px grey;
+  }
+  hr{
+      border: 1px solid #21618c;
+  }
+  .vl {
+    border: 1px solid #21618c;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+  }
+#contact-me{
+    float:right;
+    margin-left: 250px;
+}
+
+#text{
+    font-family: 'Quicksand', sans-serif;
+    color:#21618c;
+}
+/* .title{
+    font-family: 'Anton', sans-serif;
+    color:#C70039;
+} */
+.heading{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Lobster', cursive;
+    color:#21618c;
+}
+.btnTxt{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Shadows Into Light', cursive;
+}
+.icon{
+    color:#21618c;
+}
