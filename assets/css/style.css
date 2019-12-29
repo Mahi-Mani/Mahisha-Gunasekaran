@@ -1,14 +1,18 @@
 .carousel-item{
-    height: 300px;
+    height: 165px;
 } 
 .carousel-item img{
-    height: 300px;
+    height: 165px;
+}
+#headerCard{
+    background-color: black;
+    align-items: center;
 }
 #profile{
     border-radius: 50%;
     float: center;
     display: block;
-    margin-top: 0px;
+    margin-top: -20px;
     margin-bottom:15px;
     margin-left: auto;
     margin-right: auto;
@@ -31,6 +35,9 @@
 .text{
     font-family: 'Quicksand', sans-serif;
     color:#21618c;
+}
+header{
+    background-color: #21618c;
 }
 #name{
     margin-top: 100px;
