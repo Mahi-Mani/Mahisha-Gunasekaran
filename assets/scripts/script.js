@@ -17,8 +17,18 @@ $(document).ready(function () {
         console.log(`About : ${isExpandedAbt}`);
         console.log(`Contact : ${isExpandedContact}`);
 
+        // if(isExpandedContact === "false") {
+        //     isExpandedAbt = "true";
+        //     $(".col2").addClass("col");
+        //     $(".col1").removeClass("col");
+        // }
+        // else{
+        //     isExpandedContact = "true";
+        //     $(".col1").addClass("col");
+        //     $(".col2").removeClass("col");
+        // }
+
         if((isExpandedContact === "false") && (isExpandedAbt === "false")) {
-            console.log("Hello");
             $(".col1").addClass("col");
             $(".col2").addClass("col");
         }
