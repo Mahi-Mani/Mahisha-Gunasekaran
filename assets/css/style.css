@@ -7,6 +7,7 @@
 #headerCard{
     background-color: black;
     align-items: center;
+    margin-top:30px;
 }
 #profile{
     border-radius: 50%;
@@ -40,7 +41,7 @@ header{
     background-color: #21618c;
 }
 #name{
-    margin-top: 100px;
+    margin-top: 0px;
 }
 .title{
     /* font-family: 'Anton', sans-serif;
@@ -84,3 +85,16 @@ header{
     float: none; /* Added */
     margin-bottom: 10px; /* Added */
 }
+
+/* Media queries */
+@media only screen and (max-width: 768px) {
+    .vl{
+        display: none;
+    }
+    .col1{
+        width: 768px;
+    }
+    .col2{
+        width: 768px;
+    }
+  }
