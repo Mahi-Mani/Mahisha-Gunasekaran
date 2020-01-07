@@ -4,6 +4,12 @@
 .carousel-item img{
     height: 165px;
 }
+/* header{
+    position:fixed;
+} */
+.slideImage{
+    cursor: pointer;
+}
 #headerCard{
     background-color: black;
     align-items: center;
