@@ -5,6 +5,7 @@ $(document).ready(function () {
 
     $("#learnOne").on("click", function (event) {
         isExpandedAbt = $("#learnOne").attr("aria-expanded");
+        $(".skill").addClass("animated", "rotateIn");
         updateClass();
     })
     // On click of contact me button
