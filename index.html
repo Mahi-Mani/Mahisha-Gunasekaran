@@ -75,6 +75,7 @@
                         <li data-target="#carouselExampleCaptions" data-slide-to="8"></li>
                         <li data-target="#carouselExampleCaptions" data-slide-to="9"></li>
                         <li data-target="#carouselExampleCaptions" data-slide-to="10"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="11"></li>
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active shadow-lg p-3 mb-5 bg-white rounded">
@@ -124,6 +125,16 @@
                                 <!-- <button type="button" class="btn btn-info btnTxt shadow-lg p-3 mb-5 rounded"
                                     data-toggle="modal" data-target="#googleBookSearch">
                                     <h5 class="title">GOOGLE BOOK SEARCH</h5>
+                                </button> -->
+                            </div>
+                        </div>
+                        <div class="carousel-item shadow-lg p-3 mb-5 bg-white rounded">
+                            <img src="assets/images/todolist.jpg" class="d-block w-100 slideImage hvr-grow" alt="ToDoList" data-toggle="modal"
+                                data-target="#todoList">
+                            <div class="carousel-caption d-none d-md-block">
+                                <!-- <button type="button" class="btn btn-info btnTxt shadow-lg p-3 mb-5 rounded"
+                                    data-toggle="modal" data-target="#triviaGame">
+                                    <h5 class="title">TRIVIA GAME</h5>
                                 </button> -->
                             </div>
                         </div>
@@ -220,8 +231,9 @@
         <div class="col-md-2"></div>
         <div class="col-md-4 text-center">
             <!-- About me -->
-            <button class="btn btn-info btnTxt shadow-lg p-3 mb-5 rounded learn hvr-shutter-in-horizontal animated slideInUp delay-1s" type="button"
-                data-toggle="collapse" data-target="#skillset" aria-expanded="false"
+            <button
+                class="btn btn-info btnTxt shadow-lg p-3 mb-5 rounded learn hvr-shutter-in-horizontal animated slideInUp delay-1s"
+                type="button" data-toggle="collapse" data-target="#skillset" aria-expanded="false"
                 aria-controls="multiCollapseExample2" data-learn1="one" id="learnOne">
                 <h5 class="heading text-light"><i class="fas fa-user-circle icon text-light"></i> About Me</h5>
             </button>
@@ -234,8 +246,9 @@
         <div class="vl animated zoomIn delay-3s"></div>
         <!-- Contact Me -->
         <div class="col-md-4 text-center">
-            <button class="btn btn-info btnTxt shadow-lg p-3 mb-5 rounded learn hvr-shutter-in-horizontal animated slideInUp delay-1s" type="button"
-                data-toggle="collapse" data-target="#contact" aria-expanded="false"
+            <button
+                class="btn btn-info btnTxt shadow-lg p-3 mb-5 rounded learn hvr-shutter-in-horizontal animated slideInUp delay-1s"
+                type="button" data-toggle="collapse" data-target="#contact" aria-expanded="false"
                 aria-controls="multiCollapseExample2" data-learn2="two" id="learnTwo">
                 <h5 class="heading text-light"><i class="fas fa-address-card icon text-light"></i> Contact Me</h5>
             </button>
@@ -518,6 +531,30 @@
                     application on inspiration from Kindle's Vocabulary Builder
                     <hr>
                     <a href="https://protected-reef-60148.herokuapp.com" target="_blank">Vocabulary Builder</a>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal for ToDo List -->
+    <div class="modal fade" id="todoList" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text" id="todoList"><strong>TODO LIST</strong></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body text">
+                    Application that helps user to make a note of their toDoList. This is a single page React
+                    application that gives users a good visualize effect that each list is coloured differently
+                    <hr>
+                    <a href="https://mahi-mani.github.io/ToDoList/" target="_blank">Todo List</a>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
