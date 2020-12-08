@@ -8,7 +8,9 @@
     position:fixed;
 } */
 .slideImage{
-    cursor: pointer;
+  cursor: pointer;
+  width: 50%;
+  margin: auto; 
 }
 #headerCard{
     background-color: black;
